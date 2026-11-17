@@ -14,10 +14,9 @@ make one visualization that communicates a finding.
 - `requirements.txt` lists the packages needed to prepare the CSV locally.
 - `data/college_football_plays_2025.csv` is created when you run the data script.
 
-## Organizer setup
+## Downloading the Data
 
-1. Create a **public** GitHub repository for the event and upload these files.
-2. On a computer with Python, install the data-preparation packages and create
+1. On a computer with Python, install the data-preparation packages and create
    the CSV:
 
    ```bash
@@ -30,40 +29,12 @@ make one visualization that communicates a finding.
    If you change the season, update the notebook's `DATA_URL` to the matching
    CSV name after you push the data file to GitHub.
 
-3. Push the generated CSV to the repository under `data/`. It is a small,
-   prepared event file; participants will not need to run the download script.
-4. Open `starter.ipynb` in Google Colab (GitHub: **Open in Colab** from the
-   notebook page, or use Colab's **File → Open notebook → GitHub**).
-5. In the notebook's first setup cell, replace `YOUR-USERNAME` and
-   `YOUR-REPOSITORY` with your public GitHub username and repository name. Run
-   the notebook from top to bottom once to check that the link and charts work.
-6. Copy the Colab URL and share it with participants. Ask them to make their
-   own copy in Colab before editing.
-
-After replacing `USERNAME` and `REPOSITORY`, you can also share this direct
 Colab link:
 
 ```text
-https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/starter.ipynb
+https://colab.research.google.com/github/alliemcd/SAA_football/blob/main/starter.ipynb
 ```
 
-The setup cell contains one URL to customize. Participants only need to open
-the notebook and click the run buttons; they do not need a GitHub account or to
-install Python.
-
-## Suggested event flow
-
-| Minutes | What happens |
-| --- | --- |
-| 0–5 | Explain the challenge and show the final example chart. |
-| 5–10 | Open the notebook together and run the first cells. |
-| 10–35 | Teams explore a question and customize a chart. |
-| 35–50 | Each team gives a 60–90 second show-and-tell. |
-| 50–60 | Vote, recognize a few categories, and wrap up. |
-
-Teams of 3–4 work well for about 30 people. Possible recognition categories:
-clearest story, most surprising finding, and most creative chart. Keep the
-scoring focused on communication and curiosity rather than code complexity.
 
 ## Dataset notes
 
